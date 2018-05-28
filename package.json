@@ -1,0 +1,31 @@
+{
+  "name": "horas",
+  "version": "0.0.1",
+  "description": "Sistema de reserva de horas",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisvilches/exampleDate.git"
+  },
+  "author": "Luis Vilches",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luisvilches/exampleDate/issues"
+  },
+  "homepage": "https://github.com/luisvilches/exampleDate#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "connect-multiparty": "^2.1.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "helmet": "^3.12.1",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.22.1",
+    "mongoose": "^5.1.2",
+    "morgan": "^1.9.0",
+    "node-geocoder": "^3.22.0"
+  }
+}
